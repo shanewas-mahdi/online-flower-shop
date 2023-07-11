@@ -73,14 +73,15 @@
 
  }
 
- .item {
-     width: 65%;
-     margin: auto;
+ .deal-info {
+     text-align: center;
  }
+
+
 
  .deal-description {
      color: rgba(39, 39, 39, 0.60);
-     text-align: center;
+     padding-bottom: 30px;
 
      font-size: 18px;
 
@@ -96,9 +97,49 @@
 
  }
 
- .deal-btn-container {
-     width: 25%;
-     margin: auto;
-     padding-top: 30px;
+ .insta {
+     margin-top: 100px;
+     margin-left: 240px;
+     margin-right: 240px;
+ }
+
+
+ .insta-info {
+     text-align: center;
+ }
+
+ .insta-title {
+     color: #272727;
+
+     font-size: 40px;
+
+     font-weight: 800;
+     padding-bottom: 25px;
+
+
+ }
+
+ .insta-des {
+     color: rgba(39, 39, 39, 0.60);
+
+     font-size: 18px;
+
+     font-weight: 400;
+     padding-bottom: 48px;
+
+
+ }
+
+ .insta-img {
+     width: 342px;
+     height: 396px;
+     border-radius: 3px;
+
+ }
+
+ .insta-img-container {
+     display: flex;
+     justify-content: space-around;
+     gap: 24px;
 
  }
