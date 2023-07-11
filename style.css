@@ -4,7 +4,7 @@
      padding: 0px;
  }
 
- main {
+ body {
      font-family: 'Lato', sans-serif;
  }
 
@@ -141,5 +141,52 @@
      display: flex;
      justify-content: space-around;
      gap: 24px;
+
+ }
+
+ .subscription {
+     margin-left: 40px;
+     margin-right: 40px;
+     border-radius: 8px;
+
+
+
+ }
+
+ .bg-img {
+     background-image: url("Flower\ Asset/")
+ }
+
+
+
+ /* footer section */
+
+ .footer {
+     background-color: #111010;
+
+     height: 449px;
+     color: white;
+     text-align: center;
+
+
+ }
+
+ .footer-title {
+     padding-top: 120px;
+     padding-bottom: 25px;
+ }
+
+ .footer-des {
+     color: rgba(255, 255, 255, 0.90);
+     padding-top: 20px;
+     padding-bottom: 25px;
+     font-size: 18px;
+
+ }
+
+ .footer-end {
+     color: rgba(255, 255, 255, 0.40);
+
+     font-size: 16px;
 
  }
